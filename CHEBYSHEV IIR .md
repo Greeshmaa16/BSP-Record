@@ -1,4 +1,4 @@
-## EXP NO: 2	DESIGN OF DIGITAL CHEBYSHEV IIR FILTER
+## EXP NO:02	DESIGN OF DIGITAL CHEBYSHEV IIR FILTER
 
 ## DATE :
 
@@ -66,9 +66,7 @@ ylabel('Magnitude','fontweight','b');
 
 ## OUTPUT
 
-<img width="958" height="1017" alt="image" src="https://github.com/user-attachments/assets/ffa97c6f-885d-4e1d-9cce-9e0e142eb216" />
-
-
+<img width="1004" height="998" alt="image" src="https://github.com/user-attachments/assets/89dab97f-8250-45e1-bff4-7fd898052864" />
 
 ##  RESULT:
 
