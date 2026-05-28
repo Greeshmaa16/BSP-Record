@@ -86,21 +86,8 @@ title('Phase Spectrum');
 grid on;
 ~~~
 
-
-
-
-
-
-
 ## OUTPUT
- <img width="904" height="850" alt="image" src="https://github.com/user-attachments/assets/8e2b6be6-a18f-4bba-9980-12c4a1c9bd6e" />
-
-
-
-
-
-
-
+<img width="1072" height="1020" alt="image" src="https://github.com/user-attachments/assets/d49f60d0-9e72-4d6c-a171-e7bf9baf90fe" />
 
 ## RESULT:
 Thus,  Radix-2 Decimation-in-Time  (DIT) FFT algorithm was implemented using MATLAB
