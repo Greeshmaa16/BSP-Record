@@ -20,6 +20,7 @@ To design a digital Chebyshev filter using bilinear method satisfying the constr
 	Save and run the program.
 
 ## PROGRAM:
+~~~
 clear all
 clc
 
@@ -57,6 +58,8 @@ plot(w/pi,Hw_mag,'k');grid;
 title('Magnitude Response of Chebyshev 3rd order Lowpass Filter','fontweight','b');
 xlabel('Normalised frequency, \omega/\pi','fontweight','b');
 ylabel('Magnitude','fontweight','b');
+~~~
+
 
 
 
