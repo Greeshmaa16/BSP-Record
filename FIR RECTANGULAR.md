@@ -12,7 +12,7 @@ To design a linear phase FIR band stop filter to reject frequencies in the range
 	Plot the magnitude and phase angle for LPF.HPF,BPF&BSF.
 	Give the x label and ylabel and title it.
 ## PROGRAM:
-
+~~~
 Clear all
 Clc
 Wc1 = .4*pi;
@@ -47,8 +47,11 @@ Plot(w/pi,H_mag, ‘k’); grid;
 Title(‘Magnitude response’, ‘font weight’ , ‘b’);
 xlabel(‘Normalised frequency,\omega/\pi’, ‘font weight’, ‘b’);
 ylabel (‘Magnitude’, ‘font weight’, ‘b’);
+~~~
 
-## OUTPUT 
+## OUTPUT
+<img width="935" height="1018" alt="image" src="https://github.com/user-attachments/assets/c1c6c03c-31a0-45ef-917d-166d7377466b" />
+
 
 ## RESULT
 Thus the FIR filter with the given specifications was designed using rectangular windowing technique.
