@@ -1,4 +1,4 @@
-## EXP NO 4:	QRS COMPLEX DETECTION FROM ECG SIGNAL
+## EXP NO: 04	QRS COMPLEX DETECTION FROM ECG SIGNAL
 ## DATE :
 
 ## AIM
@@ -79,9 +79,7 @@ Sample Output:
 ~~~
 
 ## OUTPUT
- <img width="960" height="1026" alt="image" src="https://github.com/user-attachments/assets/4694ce3d-2162-4d4d-b8f8-e780ff88ce43" />
-
-
+<img width="1036" height="1013" alt="image" src="https://github.com/user-attachments/assets/1a8fc68f-b32c-4f14-a994-85b6555845c7" />
 
 ## RESULT:
 
