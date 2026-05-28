@@ -34,6 +34,7 @@ o	Remove baseline drift using a high-pass filter (cutoff ≈ 0.5 Hz).
 
 
 ## MATLAB Code:
+~~~
 % ECG Signal Analysis in MATLAB
 
 % Step 1: Load the ECG signal
@@ -75,9 +76,11 @@ Sample Output:
 •	ECG waveform plotted with identified R-peaks.
 •	Display of average heart rate (e.g., Average Heart Rate = 76.45 bpm).
 •	Clean, denoised ECG signal after filtering.
+~~~
 
 ## OUTPUT
- 
+ <img width="960" height="1026" alt="image" src="https://github.com/user-attachments/assets/4694ce3d-2162-4d4d-b8f8-e780ff88ce43" />
+
 
 
 ## RESULT:
