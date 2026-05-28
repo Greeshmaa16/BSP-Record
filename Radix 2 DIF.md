@@ -1,4 +1,4 @@
-## EXP NO:05	RADIX-2 DECIMATION-IN-FREQUENCY (DIF) FFT
+## EXP NO: 05	RADIX-2 DECIMATION-IN-FREQUENCY (DIF) FFT
 ## DATE :
 ## AIM:
 
@@ -71,26 +71,8 @@ xlabel('Frequency Index k');
 ylabel('∠X(k)');
 ~~~
 
-
-
-
-
-
-
-
 ## OUTPUT
-
-<img width="948" height="983" alt="image" src="https://github.com/user-attachments/assets/9df50453-537b-4717-91b0-94e40ec9f731" />
-
-
-
-
-
-
-
-
-
-
+<img width="1041" height="1024" alt="image" src="https://github.com/user-attachments/assets/1afbb94c-3bfe-419e-b426-31b96d73bd35" />
 
 ## RESULT:
 Thus,  Radix-2 Decimation-in-Frequency  (DIF) FFT algorithm was implemented using MATLAB.
