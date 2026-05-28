@@ -25,6 +25,7 @@ Magnitude spectrum
 Phase spectrum
 •  Stop the program.
 ## MATLAB CODE
+~~~
 clc;
 clear;
 close all;
@@ -83,7 +84,7 @@ stem(0:N-1, phaseX, 'filled');
 xlabel('k'); ylabel('Phase (radians)');
 title('Phase Spectrum');
 grid on;
-
+~~~
 
 
 
@@ -92,7 +93,8 @@ grid on;
 
 
 ## OUTPUT
- 
+ <img width="904" height="850" alt="image" src="https://github.com/user-attachments/assets/8e2b6be6-a18f-4bba-9980-12c4a1c9bd6e" />
+
 
 
 
