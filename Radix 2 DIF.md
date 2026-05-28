@@ -23,6 +23,7 @@ Step 5: Apply bit-reversal reordering to get the final FFT output.
 Output: Frequency-domain sequence X(k
 
 ## MATLAB CODE
+~~~
 clc;
 clear;
 x = [1, 2, 3, 4, 5, 6, 7, 8]; % Input sequence
@@ -68,7 +69,7 @@ stem(k, phaseX);
 title('Phase Spectrum');
 xlabel('Frequency Index k');
 ylabel('∠X(k)');
-
+~~~
 
 
 
@@ -79,7 +80,7 @@ ylabel('∠X(k)');
 
 ## OUTPUT
 
- 
+<img width="948" height="983" alt="image" src="https://github.com/user-attachments/assets/9df50453-537b-4717-91b0-94e40ec9f731" />
 
 
 
