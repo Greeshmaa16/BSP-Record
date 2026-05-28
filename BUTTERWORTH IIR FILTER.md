@@ -64,18 +64,8 @@ ylabel('Magnitude','fontweight','b');
 
 
 ## OUTPUT
-<img width="964" height="1014" alt="image" src="https://github.com/user-attachments/assets/f5193bda-ab7a-4bb0-af9e-2ffbb4f117d0" />
-
-
-
- 
-
-
-
-
-
+<img width="1043" height="1018" alt="image" src="https://github.com/user-attachments/assets/c8f84955-19b9-47d0-8ade-5a1d9bca78ea" />
 
 ## RESULT:
-
 Thus, digital Butterworth IIR filter with the given specifications was designed using MatLab.
  
