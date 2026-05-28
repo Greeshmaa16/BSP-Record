@@ -18,27 +18,52 @@ To design a digital Butterworth filter using bilinear method satisfying the cons
 	Save and run the program
 
 ## PROGRAM:
-clear all clc
+clear all
+clc
 
-AP=0.707; % Gain at passband edge frequency AS=0.08; % Gain at stop band edge frequency PEF_D=0.2pi; % Passband edge digital frequency SEF_D=0.4pi; % Stop band edge digital frequency T=1; % Sampling time alpha_P=-20log10(AP) % Passband attenuation in dB alpha_S=-20log10(AS) % Stop band attenuation in dB
+AP=0.707;					
+AS=0.08;					
+PEF_D=0.2*pi;					
+SEF_D=0.4*pi;					
+T=1;						
+alpha_P=-20*log10(AP)				
+alpha_S=-20*log10(AS)				
 
-PEF_A=(2/T)*tan((PEF_D/2) SEF_A=(2/T)*tan((SEF_D/2)
+PEF_A=(2/T)*tan((PEF_D/2)
+SEF_A=(2/T)*tan((SEF_D/2)
 
-[N,CF]=buttord(PEF_A,SEF_A,alpha_P,alpha_S,'s') % Order and cutoff frequency
+[N,CF]=buttord(PEF_A,SEF_A,alpha_P,alpha_S,'s')        
 
-[Bn,An]=butter(N,,1,'s'); % Normalized Transfer Function display('Normalized Transfer Function is,') Hsn=tf(Bn,An)
+[Bn,An]=butter(N,,1,'s');				
+display('Normalized Transfer Function is,')
+Hsn=tf(Bn,An)
 
-[B,A]=butter(N,CF,'s'); % Unnormalized Transfer Function display('Unnormalised Transfer Function is,') Hs=tf(B,A)
+[B,A]=butter(N,CF,'s');				
+display('Unnormalised Transfer Function is,')
+Hs=tf(B,A)
 
-[num,den]=bilinear(B,A,1/T); % Digital Transfer Function display('Digital Transfer Function is,') Hz=tf(num,den,T)
+[num,den]=bilinear(B,A,1/T);			
+% Digital Transfer Function
+display('Digital Transfer Function is,')
+Hz=tf(num,den,T)
 
-w=0:pi/16:pi; display('Frequency Response is,') Hw=freqz(num,den,w) % Frequency response display('Magnitude Response is,') Hw_mag=abs(Hw) % Magnitude response plot(w/pi,Hw_mag,'k');grid;
+w=0:pi/16:pi;
+display('Frequency Response is,')
+Hw=freqz(num,den,w)				
+% Frequency response
+display('Magnitude Response is,')
+Hw_mag=abs(Hw)				
+% Magnitude response
+plot(w/pi,Hw_mag,'k');grid;
 
-title('Magnitude Response of Butterworth 3rd order Lowpass Filter','fontweight','b'); xlabel('Normalised frequency, \omega/\pi','fontweight','b'); ylabel('Magnitude','fontweight','b');
+title('Magnitude Response of Butterworth 3rd order Lowpass Filter','fontweight','b');
+xlabel('Normalised frequency, \omega/\pi','fontweight','b');
+ylabel('Magnitude','fontweight','b');
 
 
 ## OUTPUT
-<img width="1024" height="566" alt="image" src="https://github.com/user-attachments/assets/46877a24-07f0-43d2-9b5b-91f912008bf0" />
+<img width="964" height="1014" alt="image" src="https://github.com/user-attachments/assets/f5193bda-ab7a-4bb0-af9e-2ffbb4f117d0" />
+
 
 
  
